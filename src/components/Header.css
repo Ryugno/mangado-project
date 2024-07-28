@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+@font-face {
+    font-family: 'NovantiquaMinamoto';
+    src: url('./GL-NovantiquaMinamoto.ttf') format('truetype');
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo {
+    font-family: 'NovantiquaMinamoto', sans-serif;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    font-family: 'NovantiquaMinamoto', sans-serif;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NovantiquaMinamoto';
+    src: url('./GL-NovantiquaMinamoto.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'NovantiquaMinamoto', sans-serif;
+  }
+  
